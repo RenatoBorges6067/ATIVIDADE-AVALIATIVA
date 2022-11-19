@@ -1,0 +1,42 @@
+TERCEIRO ALGORITMO_______________________________________
+
+
+Algoritmo "AUTONOMIA"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Renato Borges e Gabriel Silva
+// Data atual  : 18/11/2022
+Var
+// Seção de Declarações das variáveis 
+KM,GASTO:real
+a,b,c:real
+autonomia:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("VOCÊ QUER DESCOBRIR QUAL A AUTONOMIA DO SEU CARRO?")
+escreval("ME DIGA A DISTANCIA PERCORRIDA E O COMBUSTIVEL GASTO EM UMA VIAGEM")
+escreva("KM PERCORRIDO:")
+leia(KM)
+escreva("COMBUSTIVEL GASTO:")
+leia(GASTO)
+
+autonomia<-KM/GASTO
+escreva("SEU CARRO TEVE AUTONOMIA DE ",autonomia," litros por KM")
+
+se (autonomia=12)entao
+escreval(" SEU CARRO É DO TIPO C")
+senao
+se (autonomia=9)entao
+escreval(" SEU CARRO É DO TIPO B")
+senao
+se (autonomia=8)entao
+escreval(" SEU CARRO É DO TIPO A")
+senao
+escreval(" SEU TIPO DE CARRO NAO EXISTE")
+fimse
+fimse
+fimse
+
+Fimalgoritmo
+
