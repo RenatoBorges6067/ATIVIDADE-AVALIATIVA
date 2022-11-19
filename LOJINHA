@@ -1,0 +1,62 @@
+SEGUNDO ALGORITMO_______________________________________
+
+
+Algoritmo "LOJA"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Renato Borges e Gabriel Silva
+// Data atual  : 18/11/2022
+var
+
+a,b:caracter
+valor:real
+media:real
+c,d:real
+Inicio
+
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+escreval("ESCREVA O SEU NOME E QUANTO VOCE GASTOU NA LOJA")
+escreva("NOME DO 1° CLIENTE:")
+leia(a)
+escreval("VALOR GASTO:")
+escreva("R$")
+leia(c)
+escreva("NOME DO 2° CLIENTE:")
+leia(b)
+escreval("VALOR GASTO:")
+escreva("R$")
+leia(D)
+escreval("----------------------------")
+escreva("VALOR TOTAL PAGO PELOS DOIS CLIENTES:")
+escreval(" R$",c+d)
+
+escreval("----------------------------")
+media<-(c+d)/2
+escreval("MÉDIA DA COMPRA FOI: R$",media)
+escreval("----------------------------")
+se (c>20) e (d>20) entao
+escreval(a," E ",B," GASTARAM MAIS DE 20 REAIS")
+senao
+
+se (c>20) entao
+escreval(a," GASTOU MAIS DE 20 REAIS")
+senao
+
+se (d>20)entao
+escreval (b," GASTOU MAIS DE 20 REAIS")
+senao
+
+escreval("NENHUM DOS CLIENTES GASTOU MAIS DE VINTE REAIS!")
+
+fimse
+fimse
+fimse
+
+
+
+Fimalgoritmo
+
+
+
