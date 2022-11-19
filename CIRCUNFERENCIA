@@ -1,0 +1,28 @@
+
+Algoritmo "CIRCUNFERENCIA"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Renato Borges e Gabriel Silva
+// Data atual  : 18/11/2022
+Var
+// Seção de Declarações das variáveis
+
+  area,comprimento,raio,diametro:real
+
+
+inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ escreval("Qual é o raio?")
+ leia(raio)
+ diametro<-2*raio
+ escreval("O DIAMETRO DA CIRCUNFERENCIA É ",diametro)
+ comprimento<-3.14*diametro
+ escreval("O COMPRIMENTO DA CIRCUNFERENCIA É ",comprimento)
+ area<-3.14*raio*raio
+ escreval("A AREA DESSA CIRCUNFERENCIA É ",area)
+
+
+
+
+Fimalgoritmo
